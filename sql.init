@@ -1,0 +1,30 @@
+create table course_1 (
+
+cid bigint(20) primary key,
+cname varchar(50) not null,
+user_id bigint(20) not null,
+cstatus varchar(20) not null
+);
+
+create table course_2 (
+
+cid bigint(20) primary key,
+cname varchar(50) not null,
+user_id bigint(20) not null,
+cstatus varchar(20) not null
+)
+
+
+create table t_user (
+user_id  bigint(20) primary key not null,
+username varchar(100) not null,
+ustatus varchar(50) not null
+
+)
+
+create table t_udict (
+dictid bigint(20) primary key,
+ustatus varchar(100) not null,
+uvalue varchar(100) not null
+)
+

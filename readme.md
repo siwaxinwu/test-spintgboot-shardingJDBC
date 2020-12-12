@@ -1,0 +1,9 @@
+#此项目用来演示sharding-JDBC，涉及技术栈springboot + shardingJDBC + MyBatisPlus
+application1.properties是用来测试水平分表，course_db为测试库
+application2.properties是用来测试水平分库，edu_db_1和edu_db_2和里面的course_1、course_2
+application3.properties是用来测试垂直分库，专库专表，就是配置多数据源，user_db里面的t_user
+application4.properties是用来测试多个数据源共享公共表，u_dict
+
+
+
+
